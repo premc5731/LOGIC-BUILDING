@@ -1,0 +1,92 @@
+there is no entry point function
+
+js dont have any indentation
+
+js is block structure
+
+js is interpreted language
+
+it uses a concept of JIT (just in time) compilation
+there is an example of tea perparation in java and js 
+
+here data ko dekh kar js apne ap se datatype decide karenga 
+here dattype decide runtime hoga thats why it is called as dynamically typed 
+c, cpp , java is stsatically typed i.e datatype is decided at compile time only
+
+
+in js common datatype which can hold char, float double, int i.e "number"
+big int
+
+*** premetive datatype => number, bigint , boolean, string, undefined etc
+*** non premetive dataype => object(dictionary,hashmap,array), function, 
+
+to create var 3 options => var, let, const
+they are like shree, MR, Mrs
+
+const is like constaant
+
+mostly used var, let
+they differ in block scope
+
+var has big scope
+let has small scope
+
+mostly "let" is used
+
+it has typeof 
+
+jo prgm lang datype specific nahi dete unke pas typeof rehte he => js, python
+
+js dont have sizeof
+
+accepting input directly in js is not possible
+because js accepts input from browser
+
+we have indirect options
+
+*** in js program exectuion starts from where aise line jo apne aap execute hogi 
+lly as python
+
+JS have 2 types of functions 
+1. named function (normal)
+2. unnamed function(arrow function or anonymous function)
+
+log is like a small diary of a browser
+
+arrow function is also called as fat arrow
+
+always refer normal function
+if you need a function for short span of time like use and throw
+
+*** in fat arrow function the logic should be of 1 line it is a limitation
+
+every fat arrow can covert int o normal but vice versa is not true
+
+*** fat arrow is like inline function like urban clab
+*** means in the caller line only the function logic is replaced lly as inline, macro
+
+*** in js we can pass function as a parameter
+
+in js we can return function as a parameter
+
+*** function is treated as object in js
+
+** in js is internally an array of caharacters without \0
+
+typescript code gets transpile means convert one high lang to another highlevel language
+Angular => typescript
+React => Javascript
+
+Documentation
+mdn javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+mdn typescript
+https://developer.mozilla.org/en-US/docs/Glossary/TypeScript
+
+*** every .ts file is internally converted to .js
+
+
+-----------------------------------------------------------
+.net => microsoft
+.net core => all platforms macos,linux

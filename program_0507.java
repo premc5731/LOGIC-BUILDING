@@ -1,0 +1,49 @@
+import java.util.*;
+
+public class program_0507
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter the string : ");
+        String str = sobj.nextLine();
+
+        str = str.replaceAll(" ", "");
+        System.out.println(str);
+
+        HashMap<Character,Integer> hobj = new HashMap<Character,Integer>();
+
+        char Arr[] = str.toCharArray();
+        int frequency = 0;
+
+        for(char ch : Arr)
+        {
+            if(hobj.containsKey(ch)) // character is already present
+            {
+                frequency = hobj.get(ch);
+                hobj.put(ch, frequency+1);
+            }
+            else // character occurred first time
+            {
+                hobj.put(ch,1);
+            }
+        }
+
+        int iMax = 0;
+        char cMax = '\0';
+
+        for(char ch : hobj.keySet())
+        {
+            if(hobj.get(ch) > iMax)
+            {
+                iMax = hobj.get(ch);
+                cMax = ch;
+            }
+        }
+        System.out.println("Maximum occurred character is : "+cMax+" with frequency is : "+iMax);
+
+        
+                
+    }
+}
